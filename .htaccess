@@ -1,0 +1,5 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /practica2/public/
+    RewriteRule ^usuarios$ index.php/usuarios [QSA,L]
+</IfModule>
